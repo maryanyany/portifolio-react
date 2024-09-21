@@ -4,7 +4,7 @@ import styles from './App.module.css'
 //import LogoOutiline from './assets/images/logo-outiline.svg'
 //import ArrowDown from './assets/images/arrow-down.svg'
 
-import { LogoDefalt, LogoOutiline, ArrowDown, DribbleIcon, GitHubIcon, FigmaIcon, HeroMen, Marks} from './assets/images'
+import { LogoDefalt, LogoOutiline, ArrowDown, DribbleIcon, GitHubIcon, FigmaIcon, HeroMen, Marks, ArrowRight} from './assets/images'
 
 function App() {
   return (
@@ -57,8 +57,8 @@ function App() {
 
       </header>
 
-      <main >
-        <section className={styles.mainContainer}>
+      <main className={styles.mainContainer}>
+      
         <div className={styles.heroDercription}>
           <h2>Elias is a <span>web designer</span> and <span>front-end developer</span></h2>
           <p>He crafts responsive websites where technologies meet creativity</p>
@@ -73,9 +73,22 @@ function App() {
 
         </div>
 
-        </section>
-        
       </main>
+        {/* <section className={styles.phrasesContainer}>
+          <p>With great power comes great electricity bill</p>
+          <p>- Dr. Who</p>
+        </section> */}
+
+        <section className={styles.pojectContainer}>
+          <div className={styles.projectTitle}>
+            <h2><span>#</span>projects</h2>
+            <div className={styles.linePurple}></div>
+            <p>View all</p>
+            <img src={ArrowRight} alt="seta com ondulaçõe apontando para a direita" />
+          </div>
+        </section>
+
+
     </div>
   );
 }
