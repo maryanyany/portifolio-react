@@ -34,8 +34,41 @@
 .headerTitle h1{
   font-size: 16px;
   font-weight: 700;
+  color: var(--white-color);
 }
 .headerTitle img{
   width: 16px;
   height: 16px;
+}
+
+.nav {
+  width: 100%;
+  display: flex;
+  gap: 32px;
+  justify-self: center;
+  align-items: center;
+  font-size: 16px;
+}
+
+ .nav p {
+  color: var(--gray-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ }
+
+.nav button {
+  display: flex;
+  background-color: transparent;
+  justify-content: center;
+  align-items: center;
+  color: var(--gray-color);
+  border: none;
+  width: 24px;
+  height: 21px;
+  gap: 4px;
+}
+
+.nav span {
+  color: var(--pupile-color);
 }

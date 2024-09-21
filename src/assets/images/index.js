@@ -1,0 +1,6 @@
+export {default as ArrowDown} from './arrow-down.svg'
+export {default as LogoOutiline} from './logo-outiline.svg'
+export {default as LogoDefalt} from './logo-defalt.svg'
+export {default as DribbleIcon} from './dribble.svg'
+export {default as GitHubIcon} from './github.svg'
+export {default as FigmaIcon} from './figma.svg'
