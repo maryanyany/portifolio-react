@@ -4,7 +4,7 @@ import styles from './App.module.css'
 //import LogoOutiline from './assets/images/logo-outiline.svg'
 //import ArrowDown from './assets/images/arrow-down.svg'
 
-import { LogoDefalt, LogoOutiline, ArrowDown, DribbleIcon, GitHubIcon, FigmaIcon} from './assets/images'
+import { LogoDefalt, LogoOutiline, ArrowDown, DribbleIcon, GitHubIcon, FigmaIcon, HeroMen, Marks} from './assets/images'
 
 function App() {
   return (
@@ -27,7 +27,7 @@ function App() {
       <header className={styles.header}>
         <div className={styles.headerTitle}>
           <img src={LogoDefalt} alt="imagem do portifilio logo" />
-          <h1>Mary, O Suporte</h1>
+          <h1>Mary</h1>
         </div>
 
         <nav className={styles.nav}>
@@ -56,6 +56,26 @@ function App() {
          </nav>
 
       </header>
+
+      <main >
+        <section className={styles.mainContainer}>
+        <div className={styles.heroDercription}>
+          <h2>Elias is a <span>web designer</span> and <span>front-end developer</span></h2>
+          <p>He crafts responsive websites where technologies meet creativity</p>
+          <button>Contact me!!</button>
+        </div>
+        <div className={styles.heroImage}>
+          <img src={HeroMen} alt="" />
+          <div className={styles.imageLegad}> 
+           <div className={styles.square}></div>
+          <p>Currently working on <span>Portfolio</span></p>
+          </div>
+
+        </div>
+
+        </section>
+        
+      </main>
     </div>
   );
 }
