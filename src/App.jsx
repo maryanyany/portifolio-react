@@ -9,6 +9,21 @@ import { LogoDefalt, LogoOutiline, ArrowDown, DribbleIcon, GitHubIcon, FigmaIcon
 function App() {
   return (
     <div className={styles.portifolioContainer}>
+
+    <aside className={styles.asideMedia}>
+      <div className={styles.line}></div>
+
+      <a href="">
+        <img src={GitHubIcon} alt="icone do github" />
+      </a>
+      <a href="">
+        <img src={DribbleIcon} alt="icone do dribble" />
+      </a>
+      <a href="">
+        <img src={FigmaIcon} alt="icone do figma" />
+      </a>
+      </aside>
+
       <header className={styles.header}>
         <div className={styles.headerTitle}>
           <img src={LogoDefalt} alt="imagem do portifilio logo" />
